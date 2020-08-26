@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #222;
+  min-width: 620px;
+}
+
+a {
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+/* HEADER STYLE */
+
+.nav-left {
+    margin: 15px;
+  }
+  
+  .nav-left a {
+    opacity: 0.75;
+  }
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1px;
+    height: 60px;
+  }
+
+  header ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0 30px;
+  }
+  
+  li {
+    align-self: center;
+  }
+
+  .btn {
+    display: block;
+    position: relative;
+    background-image: -webkit-linear-gradient(
+      top,
+      rgb(67, 135, 253),
+      rgb(70, 131, 234)
+    );
+    border: 1px solid rgb(66, 133, 244);
+    border-radius: 2px;
+    margin-left: 15px;
+  }
+
+  .sign-link {
+    display: inline-block;
+    height: 100%;
+    color: white;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    padding: 0 12px;
+    margin: 0;
+  }
+
+  /* MAIN STYLE */
+
+  main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+  }
+
+  /* FOOTER STYLE */
