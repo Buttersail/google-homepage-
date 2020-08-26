@@ -1,0 +1,1 @@
+This project is about building a google like homepage, by deconstructing and reconstrucing it.
